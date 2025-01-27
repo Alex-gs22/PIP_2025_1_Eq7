@@ -14,14 +14,14 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(170, 170, 255);</string>
+   <string notr="true">background-color: #5B7A71;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="btn_sumar">
+   <widget class="QPushButton" name="btn_convertir">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>390</y>
+      <x>210</x>
+      <y>370</y>
       <width>541</width>
       <height>121</height>
      </rect>
@@ -32,21 +32,21 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 85, 127);
+     <string notr="true">background-color: #FA653C;
 color: rgb(255, 255, 255);
 border-radius: 25px;
 border: 5px solid white;</string>
     </property>
     <property name="text">
-     <string>SUMAR</string>
+     <string>CONVERTIR</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_a">
     <property name="geometry">
      <rect>
-      <x>232</x>
-      <y>100</y>
-      <width>541</width>
+      <x>90</x>
+      <y>190</y>
+      <width>311</width>
       <height>91</height>
      </rect>
     </property>
@@ -56,53 +56,64 @@ border: 5px solid white;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:25px;
-border-color: rgb(170, 85, 255);
+     <string notr="true">
 background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+color: rgb(0, 0, 0);
+border-radius: 25px;
+border-color: #FA653C;</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_a">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>50</y>
+      <x>90</x>
+      <y>140</y>
       <width>301</width>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: #504947;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;A&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Metros&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_b">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>210</y>
+      <x>580</x>
+      <y>140</y>
       <width>301</width>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: #504947;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;B&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;Pies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_b">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>260</y>
-      <width>541</width>
+      <x>570</x>
+      <y>190</y>
+      <width>311</width>
       <height>91</height>
      </rect>
     </property>
@@ -113,11 +124,36 @@ color: rgb(0, 0, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius:25px;
-border-color: rgb(170, 85, 255);
+border-color: #FA653C;
 background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+color: rgb(0, 0, 0);
+</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn_estado">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>210</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FA653C;
+border-radius: 15px;
+border: 3px solid white;</string>
+    </property>
+    <property name="text">
+     <string>Intercambiar</string>
+    </property>
+   </widget>
+   <zorder>btn_convertir</zorder>
+   <zorder>txt_a</zorder>
+   <zorder>label_a</zorder>
+   <zorder>txt_b</zorder>
+   <zorder>label_b</zorder>
+   <zorder>btn_estado</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P04_EjemploSumarDosNumeros.ui" # Nombre del archivo aqui
+qtCreatorFile = "E08_CalcularVelocidad.ui" # Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -8,20 +8,18 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
 
-        #Area de los Signals
-        self.btn_sumar.clicked.connect(self.sumar)
 
+        #Area de los Signals
+        self.btn_calcularVelocidad.clicked.connect(self.calcularVelocidad)
     #Area de los Slots
-    def sumar(self):
+    def calcularVelocidad(self):
         try:
-            a = int(self.txt_a.text())
-            b = int(self.txt_b.text())
-            r = a + b
-            self.msj("La suma es: " + str(r))
+            a = int(self.txt_distancia.text())
+            b = int(self.txt_tiempo.text())
+            c = a/b
+            self.label_velocidad.setText(str(c))
         except Exception as error:
             print(error)
-
-
 
     def msj(self, txt):
         m = QtWidgets.QMessageBox()

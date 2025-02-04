@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>logo uat.png</file>
+    <file>logo fit.png</file>
+    <file>log_uat_nuevo.png</file>
+    <file>FIT_logo_vertical.png</file>
+    <file>favicon.jpeg</file>
+  </qresource>
+  <qresource prefix="ejercicios">
+    <file>8s85l9yb14k81.png</file>
+    <file>3ueemqhb14k81.png</file>
+    <file>john cena.png</file>
+    <file>besttvseries.jpeg</file>
+    <file>btw.jpeg</file>
+    <file>malenia.jpeg</file>
+    <file>v1.jpeg</file>
+    <file>v2.jpeg</file>
+    <file>v3.jpeg</file>
+  </qresource>
+</RCC>

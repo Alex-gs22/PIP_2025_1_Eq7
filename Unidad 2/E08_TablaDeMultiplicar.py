@@ -15,7 +15,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     #Area de los Slots
     def generar(self):
         try:
-            n = int(self.txt_num.text())
+            n = float(self.txt_num.text())
             self.lbl_1.setText(f"     {n}     =     {n*1:.2f}")
             self.lbl_2.setText(f"     {n}     =     {n*2:.2f}")
             self.lbl_3.setText(f"     {n}     =     {n*3:.2f}")

@@ -2,7 +2,7 @@ import sys
 from logging import exception
 
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P07_PromedioNumeros-Load-V2.ui" # Nombre del archivo aquí
+qtCreatorFile = "P08_PromedioNumeros-Load-V2.ui" # Nombre del archivo aquí
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -17,7 +17,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
     # Área de los Slots
     def cargar(self):
-        ## TAREA EJ 10 ---, COMO COMPRUEBO SI EL ARCHIVO EXISTE ?
+        self.txt_lista_calificaciones.setText("")
         try:
             archivo = open("../Archivos/Calificaciones.csv")
         except:
@@ -28,18 +28,18 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         print(contenido)
         datos = [int(x) for x in contenido]
         print(datos)
-        # TAREA EJ 11 ---, EN VEZ DE SOBREESCRIBIR, CONCATENAR
         self.calificaciones.extend(datos)
         self.promedio()
-        # TAREA EJ 12. --- ASEGURARSE DE QUE SOLO SE PUEDA CARGAR ANTES DE AGREGAR LA PRIMERA CALIFICACION (ENABLE)
         self.btn_cargar.setEnabled(False)
         self.btn_agregar.setEnabled(True)
         self.btn_guardar.setEnabled(True)
+        self.txt_lista_calificaciones.setText(str(self.calificaciones))
 
     def agregar(self):
         calificacion = int(self.txt_calificacion.text())
         self.calificaciones.append(calificacion)
         self.promedio()
+        self.txt_lista_calificaciones.setText(str(self.calificaciones))
         self.btn_cargar.setEnabled(False) # TAREA EJ 12
 
     def promedio(self):
@@ -53,6 +53,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         archivo.flush()
         archivo.close()
         self.msj("Archivo Guardado con Éxito!")
+        self.btn_cargar.setEnabled(True)
 
     def msj (self,txt):
         m = QtWidgets.QMessageBox()

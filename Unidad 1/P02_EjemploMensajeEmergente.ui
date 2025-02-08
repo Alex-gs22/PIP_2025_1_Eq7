@@ -17,22 +17,22 @@
    <widget class="QPushButton" name="btn_Saludar">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>130</y>
+      <x>210</x>
+      <y>140</y>
       <width>561</width>
       <height>301</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>63</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 85, 255);
+     <string notr="true">background-color: rgb(122, 0, 0);
 color: rgb(255, 255, 255);
-border-radius: 80px;
-border: 5px solid white;</string>
+border-radius: 25px;
+border: 5px solid rgb(125, 58, 26);</string>
     </property>
     <property name="text">
      <string>SALUDAR</string>

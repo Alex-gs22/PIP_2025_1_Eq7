@@ -18,12 +18,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         else:
             self.msj("Debes de ingresar tu nombre")
 
-
-
     def msj(self, txt):
         m = QtWidgets.QMessageBox()
         m.setText(txt)
         m.exec_()
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     win = MainWindow()

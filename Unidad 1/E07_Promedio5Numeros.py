@@ -8,15 +8,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
 
-        #Area de las etiquetas
-        #btn_promediar
-        #txt_1
-        #txt_2
-        #txt_3
-        #txt_4
-        #txt_5
-        #txt_promedio
-
         #Area de los Signals
         self.btn_promediar.clicked.connect(self.promediar)
 

@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P01_EjemploBoton.ui" # Nombre del archivo aqui
+qtCreatorFile = "P02_EjemploMensajeEmergente.ui" # Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -12,7 +12,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     #Area de los Slots
     def saludar(self):
-        self.msj("Hola, buen dia")
+        self.msj("Hola, que tenga un excelente dia :D!!!!!")
 
     def msj(self, txt):
         m = QtWidgets.QMessageBox()

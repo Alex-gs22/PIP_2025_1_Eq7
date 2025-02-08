@@ -10,11 +10,16 @@
     <height>838</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(170, 170, 255);</string>
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_sumar">
@@ -32,10 +37,13 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 85, 127);
-color: rgb(255, 255, 255);
-border-radius: 25px;
-border: 5px solid white;</string>
+     <string notr="true">background-color: #212b78;
+  color: #FFFFFF; 
+  border: none; 
+  padding: 10px 20px;
+  text-align: center; 
+  margin: 4px 2px;
+  border-radius: 5px;  </string>
     </property>
     <property name="text">
      <string>SUMAR</string>
@@ -56,10 +64,12 @@ border: 5px solid white;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:25px;
-border-color: rgb(170, 85, 255);
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+     <string notr="true">background-color: rgb(48, 48, 48);
+border: none; 
+padding: 10px 20px;
+text-align: center; 
+margin: 4px 2px;
+border-radius: 5px;  </string>
     </property>
     <property name="text">
      <string/>
@@ -73,6 +83,11 @@ color: rgb(0, 0, 0);</string>
       <width>301</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);</string>
@@ -112,10 +127,12 @@ color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:25px;
-border-color: rgb(170, 85, 255);
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+     <string notr="true">background-color: rgb(48, 48, 48);
+border: none; 
+padding: 10px 20px;
+text-align: center; 
+margin: 4px 2px;
+border-radius: 5px;  </string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_resultado">
@@ -133,20 +150,27 @@ color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:25px;
-border-color: rgb(170, 85, 255);
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+     <string notr="true">background-color: rgb(48, 48, 48);
+border: none; 
+padding: 10px 20px;
+text-align: center; 
+margin: 4px 2px;
+border-radius: 5px;  </string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>570</y>
+      <x>240</x>
+      <y>580</y>
       <width>301</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);</string>

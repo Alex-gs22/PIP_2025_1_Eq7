@@ -17,7 +17,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             a = int(self.txt_distancia.text())
             b = int(self.txt_tiempo.text())
             c = a/b
-            self.label_velocidad.setText(str(c))
+            self.label_velocidad.setText(str(c) + " km/h")
         except Exception as error:
             print(error)
 

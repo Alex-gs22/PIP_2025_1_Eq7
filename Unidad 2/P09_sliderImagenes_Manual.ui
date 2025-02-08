@@ -17,7 +17,7 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="imagen">
+   <widget class="QLabel" name="imagen_1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -113,7 +113,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -135,7 +135,7 @@ border-radius: 15px;</string>
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="imagen_descripcion">
+   <widget class="QLabel" name="imagen">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -187,7 +187,7 @@ border-radius: 15px;</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -210,7 +210,7 @@ border-radius: 15px;</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
       <bold>true</bold>
      </font>
     </property>

@@ -17,7 +17,7 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="imagen">
+   <widget class="QLabel" name="imagen_1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -86,34 +86,34 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>86</y>
+      <x>30</x>
+      <y>106</y>
       <width>151</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>22</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>Nombre:</string>
+     <string>Contador:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txt_nombre">
+   <widget class="QLineEdit" name="txt_temporizador">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>120</y>
+      <x>30</x>
+      <y>140</y>
       <width>261</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -125,120 +125,25 @@ border-radius: 15px;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QSlider" name="selectorImagen">
+   <widget class="QPushButton" name="btn_temporizar">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>100</y>
-      <width>181</width>
-      <height>221</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="imagen_descripcion">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>100</y>
-      <width>211</width>
-      <height>181</height>
+      <x>310</x>
+      <y>140</y>
+      <width>131</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background-color: rgb(48, 48, 48);
+border: none; 
+padding: 10px 20px;
+text-align: center; 
+margin: 4px 2px;
+border-radius: 5px;  </string>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/john cena.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>170</y>
-      <width>101</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Edad:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="txt_edad">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>204</y>
-      <width>261</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 4px solid black;
-border-radius: 15px;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="txt_estatura">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>294</y>
-      <width>261</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 4px solid black;
-border-radius: 15px;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>250</y>
-      <width>151</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>24</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Estatura</string>
+     <string>Temporizador</string>
     </property>
    </widget>
   </widget>

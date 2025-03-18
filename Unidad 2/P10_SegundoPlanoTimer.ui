@@ -33,7 +33,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/logos/log_uat_nuevo.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/logos/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -55,7 +55,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/logos/FIT_logo_vertical.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/logos/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -64,9 +64,9 @@
    <widget class="QLabel" name="imagen_3">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>510</x>
       <y>350</y>
-      <width>111</width>
+      <width>91</width>
       <height>71</height>
      </rect>
     </property>
@@ -77,7 +77,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>:/Ejercicios/ImagenGatoEuropeo.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/logos/favicon.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -160,6 +160,7 @@ border-radius: 5px;  </string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
+  <include location="../2c674952/Recursos.qrc"/>
   <include location="../Archivos/Recursos.qrc"/>
  </resources>
  <connections/>

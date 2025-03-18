@@ -13,8 +13,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.rb_perro.clicked.connect(self.perro)
         self.rb_gato.clicked.connect(self.gato)
         self.rb_hamster.clicked.connect(self.hamster)
-
-
         self.rb_negro.clicked.connect(self.negro)
         self.rb_azul.clicked.connect(self.azul)
         self.rb_verde.clicked.connect(self.verde)

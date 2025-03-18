@@ -1,7 +1,7 @@
 import time as t
 import sys
 from PyQt5 import uic, QtWidgets,QtCore
-qtCreatorFile = "P10_SegundoPlanoTimer.ui" # Nombre del archivo aqui
+qtCreatorFile = "P11_RadioButton.ui" # Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):

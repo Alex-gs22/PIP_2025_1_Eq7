@@ -28,13 +28,13 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             1: (":/ejercicios/john cena.png", ["John Cenna"]),
             2: (":/ejercicios/malenia.jpeg", ["Malenia Espada de Mikela"]),
             3: (":/ejercicios/3ueemqhb14k81.png", ["Walter White"]),
-            4: (":/ejercicios/8s85l9yb14k81.png", ["Walter White"]),
-            5: (":/ejercicios/besttvseries.jpeg", ["Walter White"]),
-            6: (":/ejercicios/btw.jpeg", ["Walter White"]),
-            7: (":/logos/favicon.jpeg", ["Walter White"]),
-            8: (":/ejercicios/v1.jpeg", ["Walter White"]),
-            9: (":/ejercicios/v2.jpeg", ["Walter White"]),
-            10: (":/ejercicios/v3.jpeg", ["Walter White"])
+            4: (":/ejercicios/8s85l9yb14k81.png", ["Jesse Pinkman"]),
+            5: (":/ejercicios/besttvseries.jpeg", ["Saúl Goodman"]),
+            6: (":/ejercicios/btw.jpeg", ["Aurora Boreal"]),
+            7: (":/logos/favicon.jpeg", ["Campus TD"]),
+            8: (":/ejercicios/v1.jpeg", ["Pato 1"]),
+            9: (":/ejercicios/v2.jpeg", ["Pato 2"]),
+            10: (":/ejercicios/v3.jpeg", ["Pato 3"])
         }
         self.indice = 1
         self.mostrar_imagen()

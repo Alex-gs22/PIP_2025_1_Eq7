@@ -33,7 +33,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/logos/log_uat_nuevo.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/logos/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -55,7 +55,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/logos/FIT_logo_vertical.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/logos/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -151,7 +151,7 @@ border-radius: 15px;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/john cena.png</pixmap>
+     <pixmap resource="../2c674952/Recursos.qrc">:/ejercicios/john cena.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -255,6 +255,7 @@ border-radius: 15px;</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
+  <include location="../2c674952/Recursos.qrc"/>
   <include location="../Archivos/Recursos.qrc"/>
  </resources>
  <connections/>
